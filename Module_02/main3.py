@@ -11,5 +11,6 @@ def task_1() -> None:
         else:
             break
 
+
 if __name__ == "__main__":
     task_1()
