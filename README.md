@@ -19,7 +19,22 @@ Python-разработка — это курс, который позволит
 	  <li><a href="Module_00/tasks.py">Практическое задание по уроку "Базовые структуры данных"</a></li>
 	  <li>Решение к практическому заданию по теме "Базовые структуры данных"</li>
 	  <li>Разбор Github</li>
-	</ul>
+	</ul># -*- coding: utf-8 -*-
+
+from fake_math import divide as fake_divide
+from true_math import divide as true_divide
+
+
+if __name__ == "__main__":
+    result1 = fake_divide(69, 3)
+    result2 = fake_divide(3, 0)
+    result3 = true_divide(49, 7)
+    result4 = true_divide(15, 0)
+
+    print(result1)
+    print(result2)
+    print(result3)
+    print(result4)
 </details>
 
 <details>
@@ -95,7 +110,7 @@ Python-разработка — это курс, который позволит
   <summary>Модуль 4. Модули и пакеты</summary>
 	<ul>
 	  <li>Модули и пакеты</li>
-	  <li>Домашняя работа по уроку "Модули и пакеты"</li>
+	  <li><a href="Module_04/main.py">Домашняя работа по уроку "Модули и пакеты"</a></li>
 	  <li>Модули. Способы импортирования кода</li>
 	  <li>Скомпилированные» файлы в Python</li>
 	  <li>Пакеты и способы импорта</li>
